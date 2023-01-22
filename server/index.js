@@ -3,7 +3,7 @@ const express = require('express');
 const { seeder } = require('../database/index.js');
 //const db = require('../database/index.js');
 
-const DIST_DIR = path.resolve(__dirname, '..', 'dist');
+const DIST_DIR = path.resolve(__dirname, '../client',  'dist');
 const app = express();
 
 //middleware
